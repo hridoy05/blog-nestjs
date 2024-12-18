@@ -65,6 +65,7 @@ export class Post {
   publishOn?: Date;
 
   // Work on these in lecture on relationships
-  tags?: string[];
   metaOptions?: CreatePostMetaOptionsDto[];
+
+  tags?: string[];
 }
